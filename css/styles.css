@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@charset "UTF-8";
+
+h1 {
+  color: white;
+  font-size: 3em
+}
+
+/**
+  Snow
+**/
+
+.drop {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+  opacity: 0;
+}
+.snow {
+  height: 8px;
+	width: 8px;
+	border-radius: 100%;
+	background-color: white;
+  box-shadow: 0 0 10px white;
+}
+
+.animate {
+	animation: falling 8.5s infinite ease-in;
+}
+
+@keyframes falling {
+	0% {top: 0; opacity: 1;}
+	100% {top: 1500px; opacity: 0}
+}
+
+body {
+  width: 100%;
+  background-color: #F5624d;
+  font-family: 'Cookie', cursive;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+.tree {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+}
+
+div.img {
+  position: absolute;
+  background-image: url('../img/tree1.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 100%;
+  height: 100%;
+}
+
+div#star {
+  position: absolute;
+  margin: auto;
+  left: 5px;
+  width: 100%;
+  font-size: 5em;
+  z-index: 5;
+}
+
+div.ball {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  position: absolute;
+  left: 0; right: 0;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+div.ball-red {
+  background-color: #cc231e;
+  box-shadow: 0 0 10px #F5624D;
+}
+
+div.ball-yellow {
+  background-color: #F3AA15;
+    box-shadow: 0 0 10px #FFFED3;
+}
+
+div.ball-blue {
+  background-color: #1C58D1;
+  box-shadow: 0 0 15px #719CF1;
+}
+
+div.ball-l {
+  height: 3.5vw;
+	width: 3.5vw;
+	border-radius: 100%;
+  font-size: 2.25em;
+  /* min-width: 40px;
+  min-height: 40px; */
+}
+
+div.ball-m {
+  height: 3vw;
+	width: 3vw;
+	border-radius: 100%;
+  font-size: 1.75em;
+  /* min-width: 32px;
+  min-height: 32px; */
+}
+
+div.ball-s {
+  height: 2vw;
+	width: 2vw;
+	border-radius: 100%;
+  font-size: 1.25em;
+  /* min-width: 24px;
+  min-height: 24px; */
+}
+
+div#ball1 {
+  top: 8%;
+}
+
+div#ball2 {
+  top: 22%;
+  left: -4%;
+}
+
+div#ball3 {
+  top: 38vh;
+  left: 20px;
+}
+
+div#ball4 {
+  top: 150px;
+  left: 150px;
+}
+
+div#ball5 {
+  top: 200px;
+  left: 70px;
+}
+
+div#ball6 {
+  top: 350px;
+  left: 350px;
+}
+
+div#ball7 {
+  top: 210px;
+  left: -150px;
+}
+
+div#ball8 {
+  top: 250px;
+  left: -50px;
+}
+
+div#ball9 {
+  top: 230px;
+  left: 180px;
+}
+
+div#ball10 {
+  top: 300px;
+  left: -180px;
+}
+
+div#ball11 {
+  top: 370px;
+  left: -280px;
+}
+
+div#ball12 {
+  top: 430px;
+  left: -350px;
+}
+
+div#ball13 {
+  top: 510px;
+  left: -260px;
+}
+
+div#ball14 {
+  top: 540px;
+  left: -380px;
+}
+
+div#ball15 {
+  top: 570px;
+  left: -200px;
+}
+
+div#ball16 {
+  top: 500px;
+  left: -100px;
+}
+
+div#ball17 {
+  top: 550px;
+  left: 10px;
+}
+
+div#ball18 {
+  top: 600px;
+  left: 70px;
+}
+
+div#ball19 {
+  top: 600px;
+  left: 280px;
+}
+
+div#ball20 {
+  top: 550px;
+  left: 480px;
+}
+
+div#ball21 {
+  top: 480px;
+  left: 240px;
+}
+
+div#ball22 {
+  top: 420px;
+  left: 160px;
+}
+
+div#ball23 {
+  top: 400px;
+  left: 20px;
+}
+
+div#ball24 {
+  top: 320px;
+  left: 160px;
+}
