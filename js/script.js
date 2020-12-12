@@ -1,8 +1,8 @@
 //make snow
 jQuery(document).ready(function(){
   var w = $(window).width()
-  // snowDrop(250, randomInt(1, w), w);
-  // snow(250, 150);
+  snowDrop(250, randomInt(1, w), w);
+  snow(250, 150);
 });
 
 function snow(num, speed) {
