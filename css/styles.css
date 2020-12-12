@@ -49,7 +49,7 @@ body {
 .tree {
   position: relative;
   width: 100vw;
-  height: 500px;
+  height: 80vh;
   min-height: 550px;
 }
 
@@ -65,8 +65,8 @@ div.img {
 
 div#star {
   position: absolute;
+  top: -40px;
   margin: auto;
-  left: 5px;
   width: 100%;
   font-size: 5em;
   z-index: 5;
@@ -82,6 +82,7 @@ div.ball {
   display: flex;
   align-items:center;
   justify-content:center;
+  font-size: 24px;
 }
 
 div.ball-red {
@@ -100,30 +101,21 @@ div.ball-blue {
 }
 
 div.ball-l {
-  height: 3.5vw;
-	width: 3.5vw;
+  height: 48px;
+	width: 48px;
 	border-radius: 100%;
-  font-size: 2.25em;
-  /* min-width: 40px;
-  min-height: 40px; */
 }
 
 div.ball-m {
-  height: 3vw;
-	width: 3vw;
+  height: 40px;
+	width: 40px;
 	border-radius: 100%;
-  font-size: 1.75em;
-  /* min-width: 32px;
-  min-height: 32px; */
 }
 
 div.ball-s {
-  height: 2vw;
-	width: 2vw;
+  height: 32px;
+	width: 32px;
 	border-radius: 100%;
-  font-size: 1.25em;
-  /* min-width: 24px;
-  min-height: 24px; */
 }
 
 div#ball1 {
@@ -131,116 +123,116 @@ div#ball1 {
 }
 
 div#ball2 {
-  top: 22%;
-  left: -4%;
+  top: 18%;
+  left: -60px;
 }
 
 div#ball3 {
-  top: 38vh;
-  left: 20px;
+  top: 45%;
+  left: 30px;
 }
 
 div#ball4 {
-  top: 150px;
-  left: 150px;
+  top: 20%;
+  left: 140px;
 }
 
 div#ball5 {
-  top: 200px;
-  left: 70px;
+  top: 28%;
+  left: 100px;
 }
 
 div#ball6 {
-  top: 350px;
-  left: 350px;
+  top: 46%;
+  left: 250px;
 }
 
 div#ball7 {
-  top: 210px;
-  left: -150px;
+  top: 29%;
+  left: -140px;
 }
 
 div#ball8 {
-  top: 250px;
+  top: 35%;
   left: -50px;
 }
 
 div#ball9 {
-  top: 230px;
+  top: 34%;
   left: 180px;
 }
 
 div#ball10 {
-  top: 300px;
+  top: 43%;
   left: -180px;
 }
 
 div#ball11 {
-  top: 370px;
+  top: 52%;
   left: -280px;
 }
 
 div#ball12 {
-  top: 430px;
-  left: -350px;
+  top: 59%;
+  left: -300px;
 }
 
 div#ball13 {
-  top: 510px;
+  top: 68%;
   left: -260px;
 }
 
 div#ball14 {
-  top: 540px;
+  top: 75%;
   left: -380px;
 }
 
 div#ball15 {
-  top: 570px;
+  top: 80%;
   left: -200px;
 }
 
 div#ball16 {
-  top: 500px;
+  top: 67%;
   left: -100px;
 }
 
 div#ball17 {
-  top: 550px;
+  top: 74%;
   left: 10px;
 }
 
 div#ball18 {
-  top: 600px;
+  top: 82%;
   left: 70px;
 }
 
 div#ball19 {
-  top: 600px;
+  top: 82%;
   left: 280px;
 }
 
 div#ball20 {
-  top: 550px;
-  left: 480px;
+  top: 76%;
+  left: 400px;
 }
 
 div#ball21 {
-  top: 480px;
+  top: 55%;
   left: 240px;
 }
 
 div#ball22 {
-  top: 420px;
+  top: 66%;
   left: 160px;
 }
 
 div#ball23 {
-  top: 400px;
+  top: 59%;
   left: 20px;
 }
 
 div#ball24 {
-  top: 320px;
+  top: 44%;
   left: 160px;
 }
