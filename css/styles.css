@@ -7,28 +7,28 @@ h1 {
 }
 
 /**
-  Snow
+Snow
 **/
 .drop {
-	position: absolute;
-	top: 0;
-	z-index: -1;
+  position: absolute;
+  top: 0;
+  z-index: -1;
   opacity: 0;
 }
 .snow {
   height: 8px;
-	width: 8px;
-	border-radius: 100%;
-	background-color: white;
+  width: 8px;
+  border-radius: 100%;
+  background-color: white;
   box-shadow: 0 0 10px white;
 }
 
 .animate {
-	animation: falling 8.5s infinite ease-in;
+  animation: falling 8.5s infinite ease-in;
 }
 
 @keyframes falling {
-	0% {top: 0; opacity: 0;}
+  0% {top: 0; opacity: 0;}
   5% {top: 0; opacity: 1; }
   100% {top: 90%; opacity: 0}
 }
@@ -57,17 +57,17 @@ body {
   }
   div.ball-l {
     height: 48px !important;
-  	width: 48px !important;
+    width: 48px !important;
   }
 
   div.ball-m {
     height: 40px !important;
-  	width: 40px !important;
+    width: 40px !important;
   }
 
   div.ball-s {
     height: 32px !important;
-  	width: 32px !important;
+    width: 32px !important;
   }
 
   div.ball {
@@ -128,25 +128,25 @@ div.ball-yellow {
 
 div.ball-green {
   background-image: radial-gradient(circle 25px at 60% 15%, #a0ce63, #357920, #357920);
-  box-shadow: 0 0 15px #5F8E2B;
+  box-shadow: 0 0 10px #5F8E2B;
 }
 
 div.ball-l {
   height: 4.5vh;
-	width: 4.5vh;
-	border-radius: 100%;
+  width: 4.5vh;
+  border-radius: 100%;
 }
 
 div.ball-m {
   height: 3.5vh;
-	width: 3.5vh;
-	border-radius: 100%;
+  width: 3.5vh;
+  border-radius: 100%;
 }
 
 div.ball-s {
   height: 3vh;
-	width: 3vh;
-	border-radius: 100%;
+  width: 3vh;
+  border-radius: 100%;
 }
 
 div#ball1 {
