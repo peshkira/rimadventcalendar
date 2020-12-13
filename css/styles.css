@@ -3,7 +3,7 @@
 
 h1 {
   color: white;
-  font-size: 5em
+  font-size: 4em
 }
 
 /**
@@ -46,6 +46,16 @@ body {
   text-align: center;
   display: inline-block;
   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .tree {
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 5em;
+    }
 }
 
 .tree {
