@@ -30,7 +30,7 @@ h1 {
 
 @keyframes falling {
 	0% {top: 0; opacity: 1;}
-	100% {top: 1500px; opacity: 0}
+	100% {top: 100%; opacity: 0}
 }
 
 body {
@@ -44,13 +44,17 @@ body {
 
 .container {
   text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
 .tree {
   position: relative;
-  width: 100vw;
-  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  height: 60vh;
   min-height: 550px;
+  max-width: 500px;
 }
 
 div.img {
@@ -124,115 +128,115 @@ div#ball1 {
 
 div#ball2 {
   top: 18%;
-  left: -60px;
+  left: -15%;
 }
 
 div#ball3 {
   top: 45%;
-  left: 30px;
+  left: 4%;
 }
 
 div#ball4 {
   top: 20%;
-  left: 140px;
+  left: 20%;
 }
 
 div#ball5 {
-  top: 28%;
-  left: 100px;
+  top: 29%;
+  left: 18%;
 }
 
 div#ball6 {
   top: 46%;
-  left: 250px;
+  left: 42%;
 }
 
 div#ball7 {
   top: 29%;
-  left: -140px;
+  left: -25%;
 }
 
 div#ball8 {
   top: 35%;
-  left: -50px;
+  left: -10%;
 }
 
 div#ball9 {
   top: 34%;
-  left: 180px;
+  left: 32%;
 }
 
 div#ball10 {
   top: 43%;
-  left: -180px;
+  left: -35%;
 }
 
 div#ball11 {
   top: 52%;
-  left: -280px;
+  left: -18%;
 }
 
 div#ball12 {
   top: 59%;
-  left: -300px;
+  left: -51%;
 }
 
 div#ball13 {
-  top: 68%;
-  left: -260px;
+  top: 72%;
+  left: -48%;
 }
 
 div#ball14 {
   top: 75%;
-  left: -380px;
+  left: -62%;
 }
 
 div#ball15 {
   top: 80%;
-  left: -200px;
+  left: -25%;
 }
 
 div#ball16 {
   top: 67%;
-  left: -100px;
+  left: -15%;
 }
 
 div#ball17 {
   top: 74%;
-  left: 10px;
+  left: 4%;
 }
 
 div#ball18 {
   top: 82%;
-  left: 70px;
+  left: 15%;
 }
 
 div#ball19 {
   top: 82%;
-  left: 280px;
+  left: 48%;
 }
 
 div#ball20 {
-  top: 76%;
-  left: 400px;
+  top: 70%;
+  left: 58%;
 }
 
 div#ball21 {
   top: 55%;
-  left: 240px;
+  left: 50%;
 }
 
 div#ball22 {
   top: 66%;
-  left: 160px;
+  left: 34%;
 }
 
 div#ball23 {
   top: 59%;
-  left: 20px;
+  left: 3%;
 }
 
 div#ball24 {
-  top: 44%;
-  left: 160px;
+  top: 49%;
+  left: 25%;
 }
