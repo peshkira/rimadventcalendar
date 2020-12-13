@@ -28,8 +28,9 @@ h1 {
 }
 
 @keyframes falling {
-	0% {top: 0; opacity: 1;}
-	100% {top: 90%; opacity: 0}
+	0% {top: 0; opacity: 0;}
+  5% {top: 0; opacity: 1; }
+  100% {top: 90%; opacity: 0}
 }
 
 body {
@@ -98,7 +99,7 @@ div#star {
   top: -60px;
   margin: auto;
   width: 100%;
-  font-size: 6em;
+  font-size: 80px;
   z-index: 5;
 }
 
@@ -116,18 +117,18 @@ div.ball {
 }
 
 div.ball-red {
-  background-color: #cc231e;
-  box-shadow: 0 0 10px #F5624D;
+  background-image: radial-gradient(circle 25px at 60% 15%, #ef9073, #cc231e, #cc231e);
+  box-shadow: 0 0 10px #E44A3E;
 }
 
 div.ball-yellow {
-  background-color: #F3AA15;
-    box-shadow: 0 0 10px #FFFED3;
+  background-image: radial-gradient(circle 25px at 60% 15%, #f4dd77, #F3AA15, #F3AA15);
+  box-shadow: 0 0 10px #FDD433;
 }
 
-div.ball-blue {
-  background-color: #1C58D1;
-  box-shadow: 0 0 15px #719CF1;
+div.ball-green {
+  background-image: radial-gradient(circle 25px at 60% 15%, #a0ce63, #357920, #357920);
+  box-shadow: 0 0 15px #5F8E2B;
 }
 
 div.ball-l {
@@ -169,12 +170,12 @@ div#ball4 {
 
 div#ball5 {
   top: 29%;
-  left: 18%;
+  left: 8%;
 }
 
 div#ball6 {
   top: 46%;
-  left: 42%;
+  left: 35%;
 }
 
 div#ball7 {
@@ -204,7 +205,7 @@ div#ball11 {
 
 div#ball12 {
   top: 59%;
-  left: -51%;
+  left: -45%;
 }
 
 div#ball13 {
@@ -213,7 +214,7 @@ div#ball13 {
 }
 
 div#ball14 {
-  top: 75%;
+  top: 80%;
   left: -62%;
 }
 
@@ -234,12 +235,12 @@ div#ball17 {
 
 div#ball18 {
   top: 82%;
-  left: 15%;
+  left: 20%;
 }
 
 div#ball19 {
-  top: 82%;
-  left: 48%;
+  top: 78%;
+  left: 42%;
 }
 
 div#ball20 {
@@ -263,6 +264,6 @@ div#ball23 {
 }
 
 div#ball24 {
-  top: 49%;
+  top: 55%;
   left: 25%;
 }
