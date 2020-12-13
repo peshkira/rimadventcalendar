@@ -48,14 +48,10 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
-    .tree {
-      max-width: 600px;
-    }
-
-    h1 {
-      font-size: 5em;
-    }
+@media only screen and (orientation: landscape) {
+  .tree {
+    max-width: 600px;
+  }
 }
 
 .tree {
