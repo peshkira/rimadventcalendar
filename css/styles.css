@@ -295,8 +295,8 @@ div#ball24 {
    height: 80%;
    background-image: url("../img/popup_bg.jpg");
    background-repeat: no-repeat;
-   background-size: 100%;
-   background-position: bottom;
+   background-size: cover;
+   background-position: left bottom;
    margin: auto;
    top: 10%;
    font-size: 1.5em;
@@ -326,5 +326,5 @@ div#ball24 {
    top: 20px;
    right: 20px;
    cursor: pointer;
-   color: #000;
+   color: white;
 }
