@@ -29,7 +29,7 @@ h1 {
 
 @keyframes falling {
 	0% {top: 0; opacity: 1;}
-	100% {top: 100%; opacity: 0}
+	100% {top: 90%; opacity: 0}
 }
 
 body {
@@ -50,6 +50,27 @@ body {
 @media only screen and (orientation: landscape) {
   .tree {
     max-width: 600px;
+  }
+  .star {
+    font-size: 5em;
+  }
+  div.ball-l {
+    height: 48px;
+  	width: 48px;
+  }
+
+  div.ball-m {
+    height: 40px;
+  	width: 40px;
+  }
+
+  div.ball-s {
+    height: 32px;
+  	width: 32px;
+  }
+
+  div.ball {
+    font-size: 24px;
   }
 }
 
@@ -74,7 +95,7 @@ div.img {
 
 div#star {
   position: absolute;
-  top: -40px;
+  top: -60px;
   margin: auto;
   width: 100%;
   font-size: 5em;
@@ -91,7 +112,7 @@ div.ball {
   display: flex;
   align-items:center;
   justify-content:center;
-  font-size: 24px;
+  font-size: 2vh;
 }
 
 div.ball-red {
@@ -110,20 +131,20 @@ div.ball-blue {
 }
 
 div.ball-l {
-  height: 48px;
-	width: 48px;
+  height: 4vh;
+	width: 4vh;
 	border-radius: 100%;
 }
 
 div.ball-m {
-  height: 40px;
-	width: 40px;
+  height: 3vh;
+	width: 3vh;
 	border-radius: 100%;
 }
 
 div.ball-s {
-  height: 32px;
-	width: 32px;
+  height: 2.5vh;
+	width: 2.5vh;
 	border-radius: 100%;
 }
 
