@@ -52,25 +52,25 @@ body {
     max-width: 600px;
   }
   .star {
-    font-size: 5em;
+    font-size: 5em !important;
   }
   div.ball-l {
-    height: 48px;
-  	width: 48px;
+    height: 48px !important;
+  	width: 48px !important;
   }
 
   div.ball-m {
-    height: 40px;
-  	width: 40px;
+    height: 40px !important;
+  	width: 40px !important;
   }
 
   div.ball-s {
-    height: 32px;
-  	width: 32px;
+    height: 32px !important;
+  	width: 32px !important;
   }
 
   div.ball {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 }
 
@@ -98,7 +98,7 @@ div#star {
   top: -60px;
   margin: auto;
   width: 100%;
-  font-size: 5em;
+  font-size: 6em;
   z-index: 5;
 }
 
@@ -131,20 +131,20 @@ div.ball-blue {
 }
 
 div.ball-l {
-  height: 4vh;
-	width: 4vh;
+  height: 4.5vh;
+	width: 4.5vh;
 	border-radius: 100%;
 }
 
 div.ball-m {
-  height: 3vh;
-	width: 3vh;
+  height: 3.5vh;
+	width: 3.5vh;
 	border-radius: 100%;
 }
 
 div.ball-s {
-  height: 2.5vh;
-	width: 2.5vh;
+  height: 3vh;
+	width: 3vh;
 	border-radius: 100%;
 }
 
