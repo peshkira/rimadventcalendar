@@ -16,8 +16,8 @@ jQuery(document).ready(function(){
   };
 
   var w = $(window).width()
-  snowDrop(250, randomInt(1, w), w);
-  snow(250, 150);
+  snowDrop(150, randomInt(1, w), w);
+  snow(150, 150);
 
   $(document).keyup(function(e) {
     if (e.key === "Escape") { // escape key maps to keycode `27`

@@ -119,6 +119,7 @@ div.ball {
   justify-content:center;
   font-size: 2vh;
   cursor: pointer;
+  animation: scale 2s ease-in-out infinite;
 }
 
 div.ball-red {
@@ -272,6 +273,19 @@ div#ball24 {
   top: 55%;
   left: 25%;
 }
+
+@keyframes scale {
+  from {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
 
 .day {
    position: fixed;
