@@ -48,6 +48,11 @@ body {
   width: 100%;
 }
 
+.container h2 {
+  color: white;
+  font-size: 2.5em;
+}
+
 @media only screen and (orientation: landscape) {
   .tree {
     max-width: 600px;
@@ -281,12 +286,12 @@ div#ball24 {
 }
 
 .day h1 {
-  margin: 10px;
+  margin: 10px 0;
   font-size: 2em;
 }
 
 .day, h2 {
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 #popup {
@@ -301,11 +306,13 @@ div#ball24 {
    top: 10%;
    font-size: 1.5em;
    font-family: "Helvetica";
+   overflow: scroll;
 }
 
 #popup .overlay {
   position: absolute;
   display: inline-block;
+  max-width: 100%;
   margin: 30px;
   padding: 30px;
   background: rgba(0,0,0,0.4);
@@ -318,6 +325,10 @@ div#ball24 {
 
 #popup .overlay a:hover {
   color: red;
+}
+
+#popup .overlay img {
+  max-width: 100%;
 }
 
 
